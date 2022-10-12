@@ -1,0 +1,123 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    justify-content:space-evenly;
+    height: 220px;
+    margin: 0px;
+}
+img#rin{
+    width: 200px;
+    border-radius: 100%;
+}
+
+h1#nome{
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0px;
+}
+li a{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: red;
+}
+section#subtitulo{
+    text-align: center;
+}
+h1#ola{
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+}
+h4#carta{
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    text-decoration: none; 
+    margin: 0px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+body{
+    background-color:  rgb(217, 217, 217);
+    margin: 0px;
+}
+main section div{
+    display: grid;
+}
+img#rintrabalho{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+section#principal{
+    text-align: center;
+}
+div#textos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h6#credito{
+    margin: 0px;
+}
+h2#portifolio{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10px;
+}
+h2#portifolio2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10px;
+}
+h2#portifolio3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+img#rinonu{
+    width: 300px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+div#exp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section#experiencias{
+    text-align: center;
+}
+h2#exp1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+h2#exp2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 10px;
+}
+h2#exp3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 10px;
+}
