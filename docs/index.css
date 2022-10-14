@@ -5,7 +5,11 @@ header{
     justify-content:space-evenly;
     height: 220px;
     margin: 0px;
+    width:100%;
+    top:0;
+
 }
+
 img#rin{
     width: 200px;
     border-radius: 100%;
@@ -21,7 +25,11 @@ h1#nome{
 }
 nav{
     background-color: black;
-    margin: 0px;
+    margin-top: 0px;
+    position: sticky;
+    margin-top: auto;
+    width: 100%;
+    top: 0;
 }
 ul{
     display: flex;
@@ -62,6 +70,24 @@ footer{
     bottom: 0px;
     align-items: center;
     justify-content: center;
+    background-color: red;
+    display: flex;
+    height: 39px;
+}
+h6#credito{
+    margin: 0px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+img#twitter{
+    width: 30px;
+    margin-left: 5px;
+}
+img#github{
+    width: 31px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 100%;
 }
 body{
     background-color:  rgb(217, 217, 217);
@@ -86,14 +112,7 @@ div#textos{
     align-items: center;
     justify-content: space-evenly;
 }
-h6#credito{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    text-decoration: none;
-    margin: 0px;
-}
+
 h2#portifolio{
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 10px;
@@ -135,10 +154,6 @@ h2#exp3{
     font-family: 'Roboto Condensed', sans-serif;
     margin-right: 10px;
 }
-#twitter :hover{
-color: white;
-text-decoration: none;
-}
 h2#ser{
     justify-content: center;
     display: flex;
@@ -147,6 +162,8 @@ h2#ser{
 li{
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: underline;
+    display:flex;
+    text-align: center;
 }
 h2#cont{
     justify-content: center;
@@ -161,8 +178,9 @@ section#outlook{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     div#textos{
         display: inline;
     }
@@ -219,5 +237,24 @@ section#outlook{
     }
     h2#exp3{
         margin-right: 0px;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    li{
+        font-size: 3vw;
+    }
+    img#out{
+        max-width: 60%;
+        margin-left: 20%;
+    }
+    h6#credito{
+        font-size: 4vw;
+    }
+    img#github{
+        max-width: 10%;
+    }
+    img#twitter{
+        max-width: 10%;
     }
 }
