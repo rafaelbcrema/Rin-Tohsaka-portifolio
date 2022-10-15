@@ -82,12 +82,13 @@ h6#credito{
 img#twitter{
     width: 30px;
     margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 img#github{
-    width: 31px;
+    width: 30px;
     margin-left: 10px;
-    background-color: white;
-    border-radius: 100%;
+    margin-top: 5px;
 }
 body{
     background-color:  rgb(217, 217, 217);
@@ -174,6 +175,9 @@ h2#cont{
 img#out{
     width: 300px;
 }
+img#money{
+    width: 150px;
+}
 section#outlook{
     justify-content: center;
     display: flex;
@@ -184,12 +188,21 @@ section#outlook{
     div#textos{
         display: inline;
     }
+    img#rin{
+        max-width: 60%;
+    }
+    h1#nome{
+        font-size: 10vw;
+    }
+    h4#carta{
+        font-size: 5vw;
+    }
     img#rintrabalho{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        margin-left: 27%;
+        margin-left: 25%;
     }
     div#exp{
         display: inline;
@@ -197,7 +210,7 @@ section#outlook{
         align-items: center;
     }
     img#rinonu{
-        margin-left: 27%;
+        margin-left: 25%;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
@@ -245,16 +258,15 @@ section#outlook{
         font-size: 3vw;
     }
     img#out{
-        max-width: 60%;
-        margin-left: 20%;
+        max-width: 100%;
+    }
+    a#email{
+        width: 40%;
+    }
+    img#money{
+        max-width: 25%;
     }
     h6#credito{
         font-size: 4vw;
-    }
-    img#github{
-        max-width: 10%;
-    }
-    img#twitter{
-        max-width: 10%;
     }
 }
