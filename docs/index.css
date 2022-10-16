@@ -36,17 +36,19 @@ ul{
     justify-content: space-evenly;
     list-style: none;
     margin: 0px;
+    padding-inline-start: 0px;
 }
 ul#serr{
     padding: 0px;
     margin-top: 40px;
     margin-bottom: 40px;
+    text-decoration: underline;
 }
 li a{
     font-family: 'Caveat', cursive;
     font-size: 20px;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 li a:hover{
     color: red;
@@ -78,12 +80,6 @@ h6#credito{
     margin: 0px;
     font-family: 'Caveat', cursive;
     font-size: 20px;
-}
-img#twitter{
-    width: 30px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 5px;
 }
 img#github{
     width: 30px;
@@ -162,7 +158,6 @@ h2#ser{
 }
 li{
     font-family: 'Roboto Condensed', sans-serif;
-    text-decoration: underline;
     display:flex;
     text-align: center;
 }
